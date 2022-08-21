@@ -1,11 +1,11 @@
-# 1. Mempersiapkan Database
+# 1. Database
 Pastikan beberapa hal berikut ini sudah terpasang di local :
 - MySQL yang berjalan di localhost
 - MySQL Workbench
 - WinZIP atau semacamnya
 - Browser
 
-Buka Browser lalu buka [link berikut](https://github.com/datacharmer/test_db) untuk mendapatkan sql database.
+Buka Browser lalu buka link berikut `https://github.com/datacharmer/test_db` untuk mendapatkan sql database.
 
 ![image](https://user-images.githubusercontent.com/111683454/185790030-bcb563b3-bd09-4075-bbcf-bdc90ca6dfba.png)
 
@@ -26,6 +26,21 @@ Setelah selesai, buka aplikasi MySQL Workbench, lalu buka Local Instance.
 Pastikan schema `employees` sudah ada.
 
 ![image](https://user-images.githubusercontent.com/111683454/185790568-b9f9061d-1aa9-4193-9de7-862ae33779d1.png)
+
+# 2. Aplikasi
+Pastikan beberapa hal berikut ini sudah terpasang di local :
+- IntelliJ IDEA atau IDE sejenis.
+- Git
+
+Pull pada IDE menggunakan link git berikut `https://github.com/zakaria-am/simple-crud.git`
+
+Ubah `Run/Debug Configuration` menggunakan perintah `spring-boot:run`
+
+![image](https://user-images.githubusercontent.com/111683454/185791180-6e46369e-3ac3-4fe3-af99-1b628ff987a0.png)
+
+Kemudian klik `Run` untuk menyalakan aplikasi. Tunggu sampai dalam log muncul ini.
+
+![image](https://user-images.githubusercontent.com/111683454/185791307-77d5729b-1e7c-4f69-a78c-0a9be5833904.png)
 
 
 
